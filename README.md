@@ -22,7 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```json
+{
+  "<property_name>": {
+    "type": "<string|integer|float|array|hash|boolean|latlon|uuidv4>",
+    "description": "human readable text describing property",
+    "label": {"es": "<displayable property name in spanish>"},
+    "validators": [
+      {"name": "required", "arg1": true}
+    ],
+    "store": "<id of the store>"
+  }
+}
+```
 
 ## Development
 

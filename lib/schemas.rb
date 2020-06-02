@@ -1,6 +1,4 @@
-require "schemas/version"
+require "json-schema"
 
-module Schemas
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "schemas/version"
+require "schemas/root_definition"
